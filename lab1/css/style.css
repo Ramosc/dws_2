@@ -1,0 +1,168 @@
+body {
+    background: #4A5154;
+    background-image: url("../images/eAggmC.png");
+    background-repeat: repeat;
+    font: 90%/1.5 'Quicksand', sans-serif;
+    letter-spacing: 0.05em;
+    line-height: 1.40em;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+* {
+    padding: 0.578703% 5px;
+}
+
+#wrapper {
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    background: #CEF0B7;
+    overflow: auto;
+}
+/*******Header*******/
+
+header {
+    background: #0B486B;
+}
+
+header h1{
+    color: whitesmoke;
+}
+
+/*******Nav Bar*******/
+
+#nav-bar{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+#nav-bar li{
+    display: inline;
+    background: lime;
+
+}
+
+#nav-bar li a:hover{
+    color: white;
+}
+
+#nav-bar li:hover{
+    background: transparent;
+}
+
+/*****Feature*****/
+
+#feature {
+    width: 52.083333%;
+    /*margin: 0 auto;*/
+    float: left;
+}
+
+
+img {
+    max-width: 100%;  /*500px*/
+}
+/*Left Sidebar*/
+
+#left-sidebar{
+    clear: both;
+    float: left;
+    width: 21.527777%; /*186px;*/
+    background: #79BD9A;
+}
+
+/*Main Content*/
+
+#main{
+    float: left;
+    width: 46.296296%; /*400px;*/
+    background: #79BD9A;
+}
+
+/*Right Sidebar*/
+
+#right-sidebar{
+    float: left;
+    width: 23.148148%; /*200px;*/
+    background: #79BD9A;
+}
+
+#left-sidebar, #right-sidebar, #main {
+    margin: 0 0.925925%;    /*8px;*/
+}
+
+.headings-content{
+    background: #116CA1;
+    margin: 0;
+    height: 40px;
+    color: white;
+}
+
+/*Footer*/
+
+footer{
+    background: #3B8686;
+    clear: both;
+}
+
+/*--------Media Queries------------------------------*/
+
+
+
+
+/*----Ipad landscape-----*/
+@media screen and (min-width: 768px) and (max-width: 1024px){
+
+}
+
+/*----Ipad portrait-----*/
+@media screen and (min-width: 481px) and (max-width: 768px){
+    #feature, .sidebar, #left-sidebar, #right-sidebar, #main{
+        float: none;
+        clear: both;
+        margin: 10px auto;
+        /*font-size: 0.750em;*/
+    }
+    #left-sidebar, #right-sidebar, #main{
+        width: 80%;
+    }
+}
+
+/*----Iphone landscape-----*/
+@media screen and (min-width: 401px) and (max-width: 480px){
+    #feature{
+        float: left;
+        width: 44%;
+        margin-left: 4%;
+    }
+
+    #left-sidebar{
+        float: left;
+        clear: none;
+        width: 44.5%;
+    }
+
+    #main, #right-sidebar{
+        clear: both;
+        float: none;
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+
+
+/*----Iphone Portrait-----*/
+@media screen and (min-width: 320px) and (max-width: 400px){
+    #feature, .sidebar, #left-sidebar, #right-sidebar, #main{
+        float: none;
+        clear: both;
+        margin: 10px auto;
+        width: 90%;
+    }
+}
+
+
+
+
