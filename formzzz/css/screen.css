@@ -1,0 +1,88 @@
+body{
+    max-width: 1024px;
+    margin: 0 auto;
+    font: 100%/1.5 'helvetica', 'arial', sans-serif;
+}
+
+h1{
+    font-weight: bold;
+    font-size: 60px;
+    padding: 0;
+    margin: 0;
+}
+
+#redemption{
+    width: 100%;
+    margin: 0 auto;
+}
+
+#redemption hgroup {
+    margin-bottom: 20px;
+}
+
+#redemption fieldset {
+    border: 2px solid #cccccc;
+    padding: 2%;
+    width: 25%;
+    float: left;
+    margin: 10px 20px;
+    background: #dcdcdc;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px rgb(20,20,30);
+    font-size: 12px;
+}
+
+#redemption div {
+    width: 100%;
+    margin-bottom: 15px;
+    float: left;
+}
+
+#redemption legend {
+    font-style: italic;
+    color: #434242;
+    font-size: 18px;
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+}
+
+#redemption label {
+    width: 40%;
+    float: left;
+}
+
+#redemption input {
+    height: 20px;
+    font-size: 12px;
+    width: 50%;
+    float: right;
+}
+
+#redemption textarea {
+    height: 60px;
+    font-size: 12px;
+    width: 50%;
+    float: right;
+}
+
+
+
+#redemption input#submit {
+    width: 20%;
+    text-decoration: none;
+    height: 34px;
+    background-color: #b01c20;
+    border-radius: 8px;
+    color: white;
+    float: right;
+    margin: 10px 20px;
+    background: linear-gradient(top, rgb(241,92,96) 0%, rgb(176,28,32)
+    100%);
+    box-shadow: 5px 5px 5px hsla(0, 0%, 26.6667%, 0.8);
+    text-shadow: 0px 1px black;
+    border: 1px solid #bfbfbf;
+}
+
+
+
