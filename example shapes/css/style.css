@@ -1,0 +1,65 @@
+body{
+    width: 960px;
+    margin: 0 auto;
+}
+
+.triangle{
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 200px auto;
+    background-color: #0000FF;
+    transform: rotate(45deg);
+}
+
+.triangle2{
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 500px;
+    background-color: red;
+    transform: translate(50px,100px);
+    transition-property: height, width, background-color, margin;
+    transition-timing-function: linear;
+    transition-duration: 2s;
+
+}
+
+.triangle2:hover{
+    height: 300px;
+    width: 300px;
+    background-color: #008b8b;
+    margin: 10px auto;
+}
+
+
+
+
+.triangle3{
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    margin-left: 50px;
+    background-color: orange;
+    transform: scale(2,2);
+}
+
+.triangle4{
+    border-style: solid;
+    border-width: 1px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 20px auto;
+    margin-left: 200px;
+    background-color: purple;
+    transform: skew(30deg,50deg);
+}
